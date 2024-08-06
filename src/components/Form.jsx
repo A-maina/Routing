@@ -38,6 +38,7 @@ function Form({ users, setUsers }) {
       name: "",
       username: "",
     });
+    navigate("/")
   };
 
   return (
@@ -65,7 +66,7 @@ function Form({ users, setUsers }) {
           />
         </div>
         <div>
-          <input type="submit" value="Submit" />
+          <input className="" type="submit" value="Submit" />
         </div>
       </form>
     </div>
